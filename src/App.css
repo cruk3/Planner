@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.container{
+    margin: auto;
+    padding-top: 30px;
+    width: 50%;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: white
+    
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1em;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+.flex-container input{
+    flex-grow: 3;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Rubik';
+    border: 2px solid #d1d3dd;
+    font-weight: 500;
+}
+
+.flex-container input[type="text"]{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 38px;
+    color: #161717;
+}
+
+.flex-container input:focus{
+    outline: none;
+    border-width: 3px;
+    border-color: #19A68C;
+}
+
+.flex-container button{
+    height: 35px;
+    width: auto;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #19A68C ;
+    color: #ffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.Todo-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card-todo{
+    background: #14c97a;
+    padding: 0.5rem;
+    border: 1px solid #808080;
+    border-radius: .35rem;
+}
